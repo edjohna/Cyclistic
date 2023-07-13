@@ -1,4 +1,7 @@
 # Cyclistic Case Study using SQL and Tableau
+#### Prepared by: Edward Aguilar
+
+## Introduction
 This project serves as the culminating assignment for my Google Data Analytics course, focusing on utilizing SQL and Tableau. Within this case study, I will simulate the responsibilities of a junior data analyst at Cyclistic, a fictional company. By adhering to the data analysis process stages of **Ask, Prepare, Process, Analyze, Share, and Act**, I aim to address crucial business inquiries and generate actionable insights.
 
 ## Scenario
@@ -6,7 +9,7 @@ You are a junior data analyst working in the marketing analyst team at Cyclistic
 
 ## Ask
 ### Business Task
-My manager has assigned me a specific responsibility of examining the contrasting usage patterns between annual members and casual riders of Cyclistic bikes.
+My manager has assigned me a specific responsibility of examining the contrasting usage patterns between annual members and casual riders of Cyclistic bikes. Additionally, I am responsible for devising strategies to convert casual riders into annual members.
 
 ## Prepare
 ### Data Source
@@ -35,4 +38,28 @@ Various analyses were conducted to derive meaningful insights from the data. Thi
 To ensure clarity in data filtering within Tableau, the "day_of_week" column was modified to display weekdays as "Monday" through "Friday" instead of numerical values. The most popular start and end stations were identified for both member and casual riders. Results from each analysis were saved as new tables, enabling the joining of tables to obtain a comprehensive count of how often members and casual riders started or ended their rides at each station. Finally, the total number of visits to each station was calculated for members and casual riders.
 
 ## Analyze and Share
-Data Visualization: [Tableau](https://public.tableau.com/views/CyclisticDashboard_16892138256590/RidesTakenperMonth?:language=en-US&:display_count=n&:origin=viz_share_link)
+To access the dashboard, kindly click on the following link: [Tableau](https://public.tableau.com/views/CyclisticDashboard_16892138256590/RidesTakenperMonth?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+<img src= "https://raw.githubusercontent.com/edjohna/Cyclistic/d22ff3d3755342684a543dd3c0a4ef35e0252353/Tableau/Trips%20Taken%20by%20Bike%20Type.png" width="800">
+Based on the displayed pie chart, electric bikes emerge as the most popular bike type, with approximately 2.8 million rides recorded. Regular bikes follow closely behind with around 2.6 million rides.
+<img src= "https://raw.githubusercontent.com/edjohna/Cyclistic/d22ff3d3755342684a543dd3c0a4ef35e0252353/Tableau/Avg%20Ride%20Length%20Per%20Day.png" width="600">
+Upon analyzing the average ride length per day for casual riders and annual members, it becomes apparent that, on average, casual riders tend to have longer rides compared to annual members.
+<img src= "https://raw.githubusercontent.com/edjohna/Cyclistic/d22ff3d3755342684a543dd3c0a4ef35e0252353/Tableau/Rides%20Taken%20by%20Day.png" width="600">
+Based on the chart, a notable trend is observed. Annual members exhibit higher ride frequencies on weekdays compared to weekends. Conversely, casual riders display the opposite pattern, with the highest ride frequencies occurring on weekends.
+<img src= "https://raw.githubusercontent.com/edjohna/Cyclistic/d22ff3d3755342684a543dd3c0a4ef35e0252353/Tableau/Rides%20Taken%20per%20Month.png" width="800">
+When examining the rides taken per month, a similar pattern emerges for both annual members and casual riders. The data reveals that there is a higher number of rides during the warmer months compared to the colder months of the year. Specifically, August records the highest number of rides for annual members, while July takes the lead as the month with the highest number of rides for casual riders.
+<img src= "https://raw.githubusercontent.com/edjohna/Cyclistic/d22ff3d3755342684a543dd3c0a4ef35e0252353/Tableau/Rides%20Per%20Hour.png" width="600">
+A consistent trend is observed when analyzing the riding patterns of both annual members and casual riders. Both groups exhibit peak ridership between 4 pm and 6 pm, with 5 pm being the hour with the highest number of rides. This suggests a shared preference for biking during late afternoon hours among both annual members and casual riders.
+
+## Act
+### Conclusion
+In conclusion, the analysis of the data reveals interesting insights about the bike usage patterns. Electric bikes emerge as the most popular bike type, with regular bikes following closely behind. Casual riders tend to have longer rides on average compared to annual members. Moreover, annual members demonstrate higher ride frequencies on weekdays, while casual riders display higher ride frequencies on weekends. There is a consistent trend of higher ride counts during the warmer months, with August being the peak month for annual members and July for casual riders. Additionally, both groups exhibit peak ridership between 4 pm and 6 pm, with 5 pm recording the highest number of rides. These findings suggest a shared preference for biking during the late afternoon among both annual members and casual riders.
+### Recommendations
+To convert casual riders into annual members, here are my recommendations:
+1. Offer Trial Memberships: Provide short-term trial memberships at a discounted rate or with additional perks to allow casual riders to experience the benefits of being an annual member.
+2. Improve User Experience: Continuously enhance the user experience for annual members, ensuring that they have a seamless and enjoyable riding experience. This includes convenient booking processes, reliable bikes, and excellent customer support.
+3. Target Seasonal Riders: Identify casual riders who use the service frequently during peak seasons and offer targeted promotions or discounted rates to encourage them to become annual members.
+4. Incentivize Long-Term Commitment: Create incentives for long-term commitment, such as offering discounted rates for multi-year memberships or rewarding loyal members with exclusive rewards and privileges.
+5. Gather Feedback and Adapt: Continuously seek feedback from casual riders who have become annual members to understand their needs and preferences better. Adapt membership offerings and benefits accordingly to improve the conversion rate and retention of casual riders as annual members.
+
+By implementing these recommendations, it is possible to attract more casual riders and successfully convert them into loyal annual members, ultimately growing the customer base and promoting long-term engagement with the bike-sharing service.
